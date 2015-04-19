@@ -6,19 +6,22 @@ banner_image: sample-banner-image-2.jpg
 banner_image_alt: About me
 ---
 
-Hi, I am Tom Warlker. I am a professional UI/UX designrer and web developer. I love being minimal and creative.
+Hi, my name is Andreas Pauley.
 
-I prefer to serve with Php and Ruby based stacks and also love to work 
-on [Jekyll][jekyll] and [Processwire CMS/CMF][pw].
+I like the elegance and predictability of programming in a functional style.
+
+There are lots of programmers that are smarter and more experienced than me in functional programming. But I tricked the best of these into [meeting up every month][luminaries] in order to milk their minds :-)
+
+Currently I work as a Scala developer.
+Previously I worked in dev teams using various programming languages,
+including Erlang, Smalltalk and Python.
 
 ### Contact me
 
-Say `Hello` at gayanvirajith@gmail.com or find
-me on
+Find me on any of the social media sites below.
 
 ---
 
 {% include social.html %}
 
-[pw]: http://processwire.com
-[jekyll]: http://jekyllrb.com
+[luminaries]: http://www.meetup.com/lambda-luminaries
