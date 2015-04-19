@@ -18,10 +18,14 @@ including Erlang, Smalltalk and Python.
 
 ### Contact me
 
-Find me on any of the social media sites below.
+My verified online identities are listed on my [Keybase][keybase] profile.
+Feel free to send me an encrypted message, using my public key on Keybase.
+
+You can also find me on any of the social media sites below.
 
 ---
 
 {% include social.html %}
 
 [luminaries]: http://www.meetup.com/lambda-luminaries
+[keybase]: https://keybase.io/apauley
