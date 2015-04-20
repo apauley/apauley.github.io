@@ -79,8 +79,11 @@ Simple code is easier to reason about, easier to refactor and less likely to be 
 
 ## Reliability and Predictability
 
-One of the reasons that I like Functional Programming so much is that it stresses the decoupling of pure functions from functions with side effects.
-Pure, referentially transparent functions are reliable and predictable. We should do our best to maximise the amount of pure code we write.
+One of the reasons that I like [Functional Programming][fpintro] so much is that it stresses the decoupling of
+[pure functions](https://en.wikipedia.org/wiki/Pure_function) from functions with
+[side effects](https://en.wikipedia.org/wiki/Side_effect_%28computer_science%29).
+Pure, [referentially transparent](https://en.wikipedia.org/wiki/Referential_transparency_%28computer_science%29)
+functions are reliable and predictable. We should do our best to maximise the amount of pure code we write.
 
 Another reason I like Functional Programming is that it allows me to write simpler code.
 And some of the greatest minds agree that you need simplicity in order to get reliability:
@@ -117,3 +120,5 @@ Speed optimisation is listed last, because:
 
 When is a speed optimisation premature?
 This is probably another subjective point, but I prefer to only do optimisations on pieces of code that has been shown to be bottlenecks in the system, e.g. after doing load testing.
+
+[fpintro]: http://www.slideshare.net/AndreasPauley/an-introduction-to-functional-programming-at-the-jozi-java-user-group
