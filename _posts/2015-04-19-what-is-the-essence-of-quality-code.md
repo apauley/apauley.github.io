@@ -93,13 +93,13 @@ functions are reliable and predictable. We should do our best to maximise the am
 Another reason I like Functional Programming is that it allows me to write simpler code.
 And some of the greatest minds agree that you need simplicity in order to get reliability:
 
-> &ldquo;The price of reliability is the pursuit of the utmost simplicity. It is a price which the very rich find most hard to pay.&rdquo;
->
-> &mdash; <cite>C.A.R. Hoare</cite>
-
 > &ldquo;Simplicity is prerequisite for reliability.&rdquo;
 >
 > &mdash; <cite>Edsger W. Dijkstra</cite>
+
+> &ldquo;The price of reliability is the pursuit of the utmost simplicity. It is a price which the very rich find most hard to pay.&rdquo;
+>
+> &mdash; <cite>C.A.R. Hoare</cite>
 
 > &ldquo;The cheapest, fastest, and most reliable components are those that aren't there.&rdquo;
 >
