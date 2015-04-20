@@ -43,6 +43,10 @@ Type systems are fascinating, I'm beginning to think that I can encode a lot of 
 
 ## Elegance and Simplicity
 
+> &ldquo;Everything should be made as simple as possible, but no simpler.&rdquo;
+>
+> &mdash; <cite>Albert Einstein</cite>
+
 Complexity is one of the biggest problems in software.
 Simple and elegant code don't just work, it works in a clear and concise way.
 
