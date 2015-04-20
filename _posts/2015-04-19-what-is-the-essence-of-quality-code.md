@@ -52,12 +52,17 @@ Correct and working code is obviously important, but it is only the first step t
 > &mdash; <cite>Albert Einstein</cite>
 
 Complexity is one of the biggest problems in software.
-Simple and elegant code don't just work, it works in a clear and concise way.
-
 Complex code are sometimes engineered like a [Rube Goldberg machine](https://en.wikipedia.org/wiki/Rube_Goldberg_machine).
 It may work, and it may look impressive, but the simple unimpressive solution is superior in every way.
 
 Simple code is easier to reason about, easier to refactor and less likely to be buggy.
+
+According to Kent Beck's [4 Rules of Simple Design](http://c2.com/cgi/wiki?XpSimplicityRules), simple code:
+
+  1. Passes all the tests.
+  2. Clearly expresses the intent.
+  3. Contains no duplication, even in config.
+  4. Minimizes all the moving parts (functions, objects etc).
 
 > &ldquo;There are two ways of constructing a software design:
 > One way is to make it so simple that there are obviously no deficiencies and the other way is to make it so complicated that there are no obvious deficiencies.
