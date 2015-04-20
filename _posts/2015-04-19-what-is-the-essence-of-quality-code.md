@@ -19,6 +19,7 @@ The primary criteria for code quality that I currently value amounts to:
   1. Correctness
   1. Elegance and Simplicity
   1. Reliability and Predictability
+  1. Maintainability
   1. Speed and Efficiency
 
 ## Correctness
@@ -96,6 +97,15 @@ And some of the greatest minds agree that you need simplicity in order to get re
 >
 > &mdash; <cite>Gordon Bell</cite>
 
+## Maintainability
+
+How easy is it to change parts of a system without having to touch other parts of the system?
+
+Has each concept been defined in [one authorative place](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself),
+or do you suffer from [duplication](https://en.wikipedia.org/wiki/Duplicate_code) in code and config
+that forces you to make the same change in multiple places?
+
+Just as with reliability, [maintainability](https://en.wikipedia.org/wiki/Maintainability) depends on simplicity.
 
 ## Speed and Efficiency
 
