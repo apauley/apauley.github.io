@@ -10,9 +10,16 @@ permalink: what-is-the-essence-of-quality-code
 ---
 
 Are you a good programmer? How do you know?
-The definition of "good code" is probably very subjective, but maybe it can be helpful to try and define some less-subjective criteria for discerning between good code (a.k.a "my code") and the terrible excuses for code I have to wade through every day (a.k.a "my code from the month before").
+The definition of "good code" is probably very subjective, but maybe it can be helpful to try and define some
+  less-subjective criteria for discerning between good code (a.k.a "my code") and the terrible excuses for code
+  I have to wade through every day (a.k.a "my code from the month before").
 
-Here are some of the criteria for code quality that I value.
+The primary criteria for code quality that I currently value amounts to:
+
+  1. Correctness
+  1. Elegance and Simplicity
+  1. Reliability and Predictability
+  1. Speed and Efficiency
 
 ## Correctness
 
