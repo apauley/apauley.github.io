@@ -67,7 +67,7 @@ Simple code is easier to reason about, more secure, easier to
 generally easier to [maintain](https://en.wikipedia.org/wiki/Maintainability)
 and less likely to be buggy.
 
-Elegance and simplicity is the aspect I value most,
+Elegance and simplicity are the aspects I value most,
 because it seems that all aspects of code quality require simplicity,
 or is at least vastly improved by simple and elegant code.
 
