@@ -129,7 +129,8 @@ One of the reasons that I like [Functional Programming][fpintro] so much is that
 [pure functions](https://en.wikipedia.org/wiki/Pure_function) from functions with
 [side effects](https://en.wikipedia.org/wiki/Side_effect_%28computer_science%29).
 Pure, [referentially transparent](https://en.wikipedia.org/wiki/Referential_transparency_%28computer_science%29)
-functions are reliable and predictable. We should do our best to maximise the amount of pure code we write.
+functions are reliable, consistent and predictable.
+We should do our best to maximise the amount of pure code we write.
 
 Another reason I like Functional Programming is that it allows me to write simpler code.
 And some of the greatest minds agree that you need simplicity in order to get reliability:
