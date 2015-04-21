@@ -26,13 +26,20 @@ The primary criteria for code quality that I currently value amounts to:
 
 The code we write should at the very least be working correctly.
 
-How do we measure and guarantee correct code?
+This may be so obvious that it's hardly worth saying. I mean, what is the point of writing code
+that is _not_ working? But looking at the number of times we inadvertantly introduce bugs in our
+code I think it is worth making this implicit assumption explicit.
 
-Sure, unit tests are a great tool, especially if we can write them as
+What can we do to measure and guarantee correct code?
+
+Unit tests are a great tool, especially if we can write them as
 [property checks](https://en.wikipedia.org/wiki/QuickCheck).
-But in recent months I have started asking myself "how can I move these runtime checks to compile time?"
-Type systems are fascinating, I'm beginning to think that I can encode a fair number of the checks I'm
-currently running as unit tests into the type system.
+But in recent months I have started asking
+"[how can we move these runtime checks to compile time?](https://twitter.com/BendotK/status/505419912857518080)"
+
+Type systems are fascinating.
+I'm beginning to think that we can encode a fair number of the checks we
+currently do at runtime (and check with unit tests) into the type system.
 
 Some programmers stop after they get a feature working, as if "working code" is the only thing that matters.
 Correct and working code is obviously important, but it is only the first step towards quality code.
