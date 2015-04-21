@@ -86,6 +86,12 @@ on the subject, but I'll mention a few principles that stand out for me.
  * [Don't Mix Different Levels of Abstractions](http://www.principles-wiki.net/principles:single_level_of_abstraction)
  * [Reduce the Attack Surface](https://en.wikipedia.org/wiki/Attack_surface)
 
+
+> &ldquo;Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.&rdquo;
+>
+> &mdash; <cite>Antoine de Saint-Exupery</cite>
+
+
 > &ldquo;Simplicity does not precede complexity, but follows it.&rdquo;
 >
 > &mdash; <cite>Alan J Perlis, [Epigrams in Programming #31][epigrams]</cite>
