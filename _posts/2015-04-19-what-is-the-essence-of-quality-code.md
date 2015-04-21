@@ -17,7 +17,7 @@ The definition of "good code" is probably very subjective, but maybe it can be h
 The primary criteria for code quality that I currently value amounts to:
 
   1. Correctness
-  1. _Elegance and Simplicity_
+  1. __Elegance and Simplicity__
   1. Reliability and Predictability
   1. Speed and Efficiency
 
