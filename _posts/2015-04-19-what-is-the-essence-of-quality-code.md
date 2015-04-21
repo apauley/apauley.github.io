@@ -71,6 +71,10 @@ Elegance and simplicity is the aspect I value most,
 because it seems that all other aspects of code quality require simplicity,
 or is at least vastly improved by simple and elegant code.
 
+> &ldquo;Fools ignore complexity. Pragmatists suffer it. Some can avoid it. Geniuses remove it.&rdquo;
+>
+> &mdash; <cite>Alan J Perlis, [Epigrams in Programming #58][epigrams]</cite>
+
 How do we make our code simpler and more elegant?
 Various books and articles
 [have](http://shop.oreilly.com/product/9780596510046.do)
@@ -142,3 +146,4 @@ When is a speed optimisation premature?
 This is probably another subjective point, but I prefer to only do optimisations on pieces of code that has been shown to be bottlenecks in the system, e.g. after doing load testing.
 
 [fpintro]: http://www.slideshare.net/AndreasPauley/an-introduction-to-functional-programming-at-the-jozi-java-user-group
+[epigrams]: http://www.cs.yale.edu/homes/perlis-alan/quotes.html
