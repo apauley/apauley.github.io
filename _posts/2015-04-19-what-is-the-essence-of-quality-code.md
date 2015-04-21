@@ -17,7 +17,7 @@ The definition of "good code" is probably very subjective, but maybe it can be h
 The primary criteria for code quality that I currently value amounts to:
 
   1. Correctness
-  1. Elegance and Simplicity
+  1. _Elegance and Simplicity_
   1. Reliability and Predictability
   1. Speed and Efficiency
 
@@ -64,6 +64,10 @@ It may work, and it may look impressive, but the simple unimpressive solution is
 Simple code is easier to reason about, easier to refactor,
 generally easier to [maintain](https://en.wikipedia.org/wiki/Maintainability)
 and less likely to be buggy.
+
+Elegance and simplicity is the aspect I value most out of all the points mentioned here,
+because it seems that all other points require simplicity,
+or is at least vastly improved by simple and elegant code.
 
 How do we make our code simpler and more elegant?
 Various books and articles have been written on the subject, but I'll mention a few topics that stand out for me.
