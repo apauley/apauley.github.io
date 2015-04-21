@@ -86,6 +86,10 @@ on the subject, but I'll mention a few topics that stand out for me.
  * [Don't Mix Different Levels of Abstractions](http://www.principles-wiki.net/principles:single_level_of_abstraction)
  * [Reduce the Attack Surface](https://en.wikipedia.org/wiki/Attack_surface)
 
+> &ldquo;Simplicity does not precede complexity, but follows it.&rdquo;
+>
+> &mdash; <cite>Alan J Perlis, [Epigrams in Programming #31][epigrams]</cite>
+
 According to Kent Beck's [4 Rules of Simple Design](http://c2.com/cgi/wiki?XpSimplicityRules), simple code:
 
   1. Passes all the tests.
