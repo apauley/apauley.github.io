@@ -19,7 +19,6 @@ The primary criteria for code quality that I currently value amounts to:
   1. Correctness
   1. Elegance and Simplicity
   1. Reliability and Predictability
-  1. Maintainability
   1. Speed and Efficiency
 
 ## Correctness
@@ -62,7 +61,15 @@ Complexity is one of the biggest problems in software.
 Complex code are sometimes engineered like a [Rube Goldberg machine](https://en.wikipedia.org/wiki/Rube_Goldberg_machine).
 It may work, and it may look impressive, but the simple unimpressive solution is superior in every way.
 
-Simple code is easier to reason about, easier to refactor and less likely to be buggy.
+Simple code is easier to reason about, easier to refactor,
+generally easier to [maintain](https://en.wikipedia.org/wiki/Maintainability)
+and less likely to be buggy.
+
+How do we make our code simpler and more elegant?
+Various books and articles have been written on the subject, but I'll mention a few topics that stand out for me.
+
+[Don't repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
+[Remove duplication](https://en.wikipedia.org/wiki/Duplicate_code).
 
 According to Kent Beck's [4 Rules of Simple Design](http://c2.com/cgi/wiki?XpSimplicityRules), simple code:
 
@@ -111,16 +118,6 @@ And some of the greatest minds agree that you need simplicity in order to get re
 > &ldquo;The cheapest, fastest, and most reliable components are those that aren't there.&rdquo;
 >
 > &mdash; <cite>Gordon Bell</cite>
-
-## Maintainability
-
-How easy is it to change parts of a system without having to touch other parts of the system?
-
-Has each concept been defined in [one authorative place](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself),
-or do you suffer from [duplication](https://en.wikipedia.org/wiki/Duplicate_code) in code and config
-that forces you to make the same change in multiple places?
-
-Just as with reliability, [maintainability](https://en.wikipedia.org/wiki/Maintainability) depends on simplicity.
 
 ## Speed and Efficiency
 
