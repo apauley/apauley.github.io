@@ -97,19 +97,21 @@ According to Kent Beck's [4 Rules of Simple Design](http://c2.com/cgi/wiki?XpSim
   3. Contains no duplication, even in config.
   4. Minimizes all the moving parts (functions, objects etc).
 
+Most of the quotes related to simplicity in software resonates well with me:
+
 > &ldquo;There are two ways of constructing a software design:
 > One way is to make it so simple that there are obviously no deficiencies and the other way is to make it so complicated that there are no obvious deficiencies.
 > The first method is far more difficult.&rdquo;
 >
 > &mdash; <cite>C.A.R. Hoare, The 1980 ACM Turing Award Lecture</cite>
 
-> &ldquo;Beauty is more important in computing than anywhere else in technology because software is so complicated. Beauty is the ultimate defense against complexity.&rdquo;
->
-> &mdash; <cite>David Gelernter</cite>
-
 > &ldquo;Complexity kills. It sucks the life out of developers, it makes products difficult to plan, build and test, it introduces security challenges and it causes end-user and administrator frustration.&rdquo;
 >
 > &mdash; <cite>Ray Ozzie</cite>
+
+> &ldquo;Beauty is more important in computing than anywhere else in technology because software is so complicated. Beauty is the ultimate defense against complexity.&rdquo;
+>
+> &mdash; <cite>David Gelernter</cite>
 
 > &ldquo;Simplicity is the ultimate sophistication.&rdquo;
 >
