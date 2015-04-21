@@ -148,8 +148,18 @@ Speed optimisation is listed last, because:
 >
 > &mdash; <cite>Donald Knuth</cite>
 
-When is a speed optimisation premature?
-This is probably another subjective point, but I prefer to only do optimisations on pieces of code that has been shown to be bottlenecks in the system, e.g. after doing load testing.
+But performance is still extremely important:
+
+> &ldquo;If you perform badly, you're not worth using.&rdquo;
+>
+> &mdash; <cite>[Linus Torvalds](https://youtu.be/4XpnKHJAok8?t=661)</cite>
+
+When is a speed optimisation premature, and when is it crucial?
+
+My guideline is that end users should never wait for my software.
+Given this, I prefer to only do optimisations on pieces of code
+that has been shown to be bottlenecks in the system,
+e.g. after doing load testing or profiling.
 
 [fpintro]: http://www.slideshare.net/AndreasPauley/an-introduction-to-functional-programming-at-the-jozi-java-user-group
 [epigrams]: http://www.cs.yale.edu/homes/perlis-alan/quotes.html
