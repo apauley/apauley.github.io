@@ -33,7 +33,7 @@ What can we do to measure and guarantee correct code?
 
 Unit tests are a great tool, especially if we can write them as
 [property checks](https://en.wikipedia.org/wiki/QuickCheck).
-But in recent months I have started asking
+But in recent months I (like many others before me) have started asking
 "[how can we move these runtime checks to compile time?](https://twitter.com/BendotK/status/505419912857518080)"
 
 Type systems are fascinating.
