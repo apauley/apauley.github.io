@@ -58,22 +58,29 @@ Correct and working code is obviously important, but it is only the first step t
 > &mdash; <cite>Albert Einstein</cite>
 
 Complexity is one of the biggest problems in software.
-Complex code are sometimes engineered like a [Rube Goldberg machine](https://en.wikipedia.org/wiki/Rube_Goldberg_machine).
+Complex code are sometimes engineered like a
+[Rube Goldberg machine](https://en.wikipedia.org/wiki/Rube_Goldberg_machine).
 It may work, and it may look impressive, but the simple unimpressive solution is superior in every way.
 
-Simple code is easier to reason about, easier to refactor,
+Simple code is easier to reason about, more secure, easier to
+[refactor](https://en.wikipedia.org/wiki/Code_refactoring),
 generally easier to [maintain](https://en.wikipedia.org/wiki/Maintainability)
 and less likely to be buggy.
 
-Elegance and simplicity is the aspect I value most out of all the points mentioned here,
-because it seems that all other points require simplicity,
+Elegance and simplicity is the aspect I value most,
+because it seems that all other aspects of code quality require simplicity,
 or is at least vastly improved by simple and elegant code.
 
 How do we make our code simpler and more elegant?
-Various books and articles have been written on the subject, but I'll mention a few topics that stand out for me.
+Various books and articles
+[have](http://shop.oreilly.com/product/9780596510046.do)
+[been](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672)
+[written](http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+on the subject, but I'll mention a few topics that stand out for me.
 
-[Don't repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
-[Remove duplication](https://en.wikipedia.org/wiki/Duplicate_code).
+ * [Don't repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) ([remove duplication](https://en.wikipedia.org/wiki/Duplicate_code)).
+ * [Don't Mix Different Levels of Abstractions](http://www.principles-wiki.net/principles:single_level_of_abstraction)
+ * [Reduce the Attack Surface](https://en.wikipedia.org/wiki/Attack_surface)
 
 According to Kent Beck's [4 Rules of Simple Design](http://c2.com/cgi/wiki?XpSimplicityRules), simple code:
 
