@@ -157,9 +157,10 @@ Speed optimisation is listed last, because:
 
 But performance is still extremely important:
 
-> &ldquo;If you perform badly, you're not worth using.&rdquo;
+> &ldquo;If you can do something really fast, really well, people start using it differently.
+> It affects how you work and it affects quality.&rdquo;
 >
-> &mdash; <cite>[Linus Torvalds](https://youtu.be/4XpnKHJAok8?t=661)</cite>
+> &mdash; <cite>[Linus Torvalds on Git performance](https://youtu.be/4XpnKHJAok8?t=3026)</cite>
 
 When is a speed optimisation premature, and when is it crucial?
 
