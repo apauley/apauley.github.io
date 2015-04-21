@@ -68,7 +68,7 @@ generally easier to [maintain](https://en.wikipedia.org/wiki/Maintainability)
 and less likely to be buggy.
 
 Elegance and simplicity is the aspect I value most,
-because it seems that all other aspects of code quality require simplicity,
+because it seems that all aspects of code quality require simplicity,
 or is at least vastly improved by simple and elegant code.
 
 > &ldquo;Fools ignore complexity. Pragmatists suffer it. Some can avoid it. Geniuses remove it.&rdquo;
@@ -80,7 +80,7 @@ Various books and articles
 [have](http://shop.oreilly.com/product/9780596510046.do)
 [been](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672)
 [written](http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
-on the subject, but I'll mention a few topics that stand out for me.
+on the subject, but I'll mention a few principles that stand out for me.
 
  * [Don't repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) ([remove duplication](https://en.wikipedia.org/wiki/Duplicate_code)).
  * [Don't Mix Different Levels of Abstractions](http://www.principles-wiki.net/principles:single_level_of_abstraction)
