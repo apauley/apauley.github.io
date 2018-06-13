@@ -62,14 +62,14 @@ main = hakyll $ do
 postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
-    siteCtx 
+    siteCtx
 
 siteCtx :: Context String
-siteCtx = 
+siteCtx =
     constField "baseurl" "http://localhost:8000" `mappend` 
-    constField "site_description" "my beautiful blog" `mappend`
-    constField "instagram_username" "katychuang.nyc" `mappend`
-    constField "twitter_username" "katychuang" `mappend`
-    constField "github_username" "katychuang" `mappend`
-    constField "google_username" "katychuang" `mappend`
+    constField "site_description" "Searching for elegance, simplicity and beauty in code" `mappend`
+    constField "instagram_username" "apauley" `mappend`
+    constField "twitter_username" "apauley" `mappend`
+    constField "github_username" "apauley" `mappend`
+    constField "google_username" "apauley" `mappend`
     defaultContext
