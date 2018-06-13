@@ -1,8 +1,20 @@
-# CleanMagic for Hakyll
+# My blog at https://pauley.org.za/
 
-This theme is a fork of [CleanMagicMedium-Jekyll](https://github.com/SpaceG/CleanMagicMedium-Jekyll) originally published by Lucas Gatsas.
+The theme for this site is based on [CleanMagic-hakyll](https://github.com/katychuang/CleanMagic-hakyll) by [Katy Chuang](http://katychuang.me/), which in turn is a fork of [CleanMagicMedium-Jekyll](https://github.com/SpaceG/CleanMagicMedium-Jekyll) originally published by Lucas Gatsas.
 
-## Installation instructions
+## Build Instructions
+
+```
+$ stack build
+$ stack exec pauley build
+$ stack exec pauley watch
+```
+
+Then you can access the site locally at:
+
+http://127.0.0.1:8000/
+
+## CleanMagic Installation instructions
 
 Note that this theme has specific features with requires a custom written [siteCtx context](https://github.com/katychuang/hakyll-cssgarden/blob/master/cleanMagic-hakyll/site.hs#L67), with specific fields mapped to the template fields. For example, $side_description$ is mapped below to "my beautiful blog"
 
